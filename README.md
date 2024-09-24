@@ -182,7 +182,7 @@ def check_image_size(image_name):
 def send_alert(image_name, size_mb, stage="initial"):
     from_email = "ksungho9991@gmail.com"
     to_email = "ksungho9991@gmail.com"
-    password = "ijsb gwda kbop yubt"
+    password = "-"
 
     subject = f"Alert: Docker Image {image_name} Size {stage.capitalize()}"
     body = f"Warning: Docker image {image_name} is {size_mb:.2f}MB."
